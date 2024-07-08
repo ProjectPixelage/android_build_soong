@@ -531,6 +531,9 @@ type ProductVariables struct {
 	BoardUseVbmetaDigestInFingerprint *bool `json:",omitempty"`
 
 	OemProperties []string `json:",omitempty"`
+
+	ArtTargetIncludeDebugBuild *bool `json:",omitempty"`
+
 	PixelageDevice []string `json:",omitempty"`
 }
 
