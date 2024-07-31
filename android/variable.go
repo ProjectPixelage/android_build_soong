@@ -534,6 +534,8 @@ type ProductVariables struct {
 
 	ArtTargetIncludeDebugBuild *bool `json:",omitempty"`
 
+	SystemPropFiles []string `json:",omitempty"`
+
 	PixelageDevice []string `json:",omitempty"`
 }
 
